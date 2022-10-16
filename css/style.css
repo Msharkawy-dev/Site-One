@@ -1,0 +1,1540 @@
+/*
+
+////////////////////////////////////////////////////////////////////////////// */
+/* <!-- ================================================================================== -->
+    <!-- genral .... for all sections -->
+<!-- .......................................... --> */
+
+*{
+   margin: 0px; 
+   padding: 0px;
+}
+
+/* *********************************************** */
+
+.body1{
+    height: 2500px;
+    background-color:white;
+    
+}
+
+/* =================== */
+
+.body1 a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+}
+
+/* =================== */
+
+.body1 span{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    /* color: gray; */
+}
+
+/* =================== */
+
+.parent-contener{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+/* =================== */
+
+/* .contener1,.contener2,.contener3,.contener4,.contener5,.contener6,
+.contener7,.contener8,.contener9,.contener10,.contener11,.contener12{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    overflow: auto;
+} */
+
+/* =================== */
+
+.h-title1,.h-title2,.h-title3,.h-title4,.h-title5,.h-title6,
+.h-title7,.h-title8,.h-title9,.h-title10,.h-title11,.h-title12{
+    font-size: 70;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+/* =================== */
+
+.lin{
+    margin:auto;
+    height: 5px;width: 100px;
+    background-color: blue;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* <!-- ================================================================================== -->
+    <!-- header section -->   */
+/* <!-- .......................................... --> */
+
+.header{    
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top:0px;left: 0px; right: 0px;   
+    background-color: rgb(6, 142, 233);
+    overflow: auto;
+    opacity: 0.7;
+    z-index: 5;
+}
+
+/* =================== */
+
+.hd_menue{
+    margin-top: 18px;
+    margin-right: 200px;
+    float: right;
+    position: relative;
+}
+/* =================== */
+
+.hd_menue li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;  
+}
+/* =================== */
+
+.hd_menue li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;       
+}
+/* =================== */
+
+.hd_menue li a:hover{
+    color:darkblue;
+    text-decoration: underline;  
+}
+/* =================== */
+
+.logo1{
+    height: 55px;
+    width: 70px;
+    padding: 2px;
+    margin-left: 200px;
+    float: left;
+    position: relative;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+ /* <!-- ================================================================================== -->
+    /* <!-- home section --> */ 
+/* <!-- .......................................... --> */
+
+.home{
+    position: relative;
+    height:100vh ;
+    background-image: url(../images/ddd.jpg);
+ 
+}
+
+/* =================== */
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0pc;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* =================== */
+
+.home-content{
+    width: 50%;
+    /*========== hero image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+     /*========== hero image */
+    text-align: center;  
+}
+
+/* =================== */
+
+.titl1,.pr1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+/* =================== */
+
+.titl1{
+     /* margin-top:  200px; */
+
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+/* =================== */
+
+.pr1{
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+/* =================== */
+
+.but1,.but2{
+    padding: 15px,0px;
+    height: 40px;
+    width: 160px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+/* =================== */
+
+.but1{
+background-color: white;
+color: blue;
+}
+
+/* =================== */
+
+.but2{
+    background-color: blue;
+    color: white;
+}
+
+/* =================== */
+
+.but1:hover{
+    opacity: 0.5;
+ }
+
+/* =================== */
+
+.but2:hover{
+    opacity: 0.5;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* <!-- ================================================================================== --> */
+    /* <!-- SECTION 1 .... Welcome To Website -->
+<!-- .......................................... --> */
+
+.contener1{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    overflow: auto;
+}
+
+/* =================== */
+
+.Welcome_content{
+    padding-top: 70px;
+    width: 90%;
+    height: 400px;
+    text-align: center;
+    margin: 50px auto;
+    overflow: auto;
+    /* position: relative; */
+}
+
+/* =================== */
+
+.Welcome_item{
+    position: relative;
+    float: left;
+    background-color:white;
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    margin: 0px 10px;
+    text-align:center;
+    width: 29%;
+    height: 180px ;
+    padding: 17px 15px;
+    /* z-index: 0; */
+
+}
+
+/* =================== */
+
+.Welcome_item .Welcome_item_image i{
+    color: blue;
+    font-size: 25px;
+}
+
+/* =================== */
+
+.Welcome_item::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(32, 18, 231);
+    opacity: 0.7;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    /* z-index: -1; */
+    /* transition: 2s; */
+ } 
+
+ /* =================== */
+
+ .Welcome_info_span_1{
+    color: rgb(127, 132, 173);
+ }
+
+  /* =================== */
+
+.Welcome_item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    color: brown;
+    transition: 1s;
+    /* z-index: -1;     */
+
+} 
+
+ /* =================== */
+ .Welcome_item:hover .Welcome_info_titl_1{
+    color: rgb(136, 78, 25);    /* z-index: 1; */
+    font-style: italic;
+}
+
+ /* =================== */
+ .Welcome_item:hover  .Welcome_info_span_1{
+    color:blue;
+}
+
+ /* =================== */
+ .Welcome_item:hover  .Welcome_info_smbol_1 i{
+    color: rgb(112, 14, 14);
+    font-size: 35px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* <!-- ================================================================================== -->
+    <!-- SECTION 2 .... Featured Works -->  
+<!-- .......................................... --> */
+
+.contener2{
+    width: 100%;
+    height: 1100px;
+    text-align: center;
+    margin: 50px auto;
+    position: relative;
+    /* overflow: auto; */
+    background-color: rgb(186, 201, 240);
+}
+
+/* =================== */
+
+.Featured_content{
+    padding-top: 70px;
+    width: 90%;
+    /* height: 1000px; */
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+    /* position: absolute; */
+}
+
+/* =================== */
+
+.Featured_item{
+    /* position: absolute; */
+    position: relative;
+    float: left;
+    background-color: rgb(149, 175, 240);
+    margin: 10px 15px;
+    text-align:center;
+    width: 29%;
+    height: 40%;
+    padding: 13px 13px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+/* =================== */
+
+.Featured_item_image image{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    position: absolute; 
+
+}
+
+/* =================== */
+
+.Featured_item_image{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    /* background-color:white; */
+
+}
+
+/* =================== */
+
+.Featured_item_overlay{
+    /* text-align: center; */
+    position: absolute; 
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(32, 18, 231);
+    visibility: hidden;
+    opacity: 0;
+    margin: auto;
+}
+
+/* =================== */
+
+.Featured_item_info{
+    position: absolute; 
+    /* position: relative; */
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 80%;
+}
+
+/* =================== */
+
+.Featured_item_overlay .Featured_item_info h2{
+    /* text-align: center;  */
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* =================== */
+
+.Featured_item_overlay .Featured_item_info span{
+    /* text-align: center;  */
+    color:rgb(255, 255, 255);
+}
+
+/* =================== */
+
+.Featured_item_overlay .Featured_item_info .Featured_item_links a i{
+    /* text-align: center;  */
+    background-color: rgb(127, 219, 255);
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    color:rgb(3, 17, 141);
+}
+
+/* =================== */
+
+.Featured_item:hover .Featured_item_overlay{
+    width: 100%;
+    height: 100%;  
+    opacity: 0.6;
+    transition: 1s;
+    visibility:visible;
+} 
+
+/* =================== */
+
+.Featured_item::after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: o;
+    left: 0;
+    background-color: rgb(32, 18, 231);
+    opacity: o;
+    /* z-index: -1;     */
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* <!-- ================================================================================== -->
+    <!-- SECTION 3 .... What We Offer -->
+<!-- .......................................... --> */
+
+.contener3{
+    width: 90%;
+    height: 600px;
+    text-align: center;
+    margin: 50px auto;
+    position: relative;
+    overflow: auto;
+}
+
+/* =================== */
+
+.Offer_content{
+    padding-top: 70px;
+    width: 90%;
+    height: 70%;
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+    /* position: relative; */
+}
+
+/* =================== */
+
+.Offer_item{
+    position: relative;
+    float: left;
+    background-color:white;
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    margin: 5px 10px;
+    text-align:left;
+    width: 29%;
+    height: 35% ;
+    padding: 17px 15px;
+    position: relative;
+
+}
+
+/* =================== */
+
+.Offer_item .Offer_item_image a i{
+    color: blue;
+    font-size: 25px;
+    display: inline;
+    position: absolute;
+
+}
+
+/* =================== */
+
+.Offer_item .Offer_item_info{
+width: 70%;
+display: inline;
+margin-left: 35px;
+
+}
+
+/* =================== */
+
+.Offer_item .Offer_item_info h2{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    display: inline;
+
+}
+
+/* =================== */
+
+.Offer_item .Offer_item_info span{
+    position: absolute;
+    color: rgb(156, 156, 163);
+    font-size: 18px;
+    margin: 30px;
+    /* display: inline; */
+
+}
+
+/* =================== */
+
+.Offer_item::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(32, 18, 231);
+    opacity: 0.7;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    /* z-index: 0; */
+    /* transition: 2s; */
+ } 
+
+ /* =================== */
+
+.Offer_item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    color: brown;
+    transition: 1s;
+    /* z-index: -1;     */
+    /* position: absolute; */
+
+    /* visibility: hidden; */
+}
+
+ /* =================== */
+
+ .Offer_item:hover .Offer_info_titl_1{
+    color: rgb(136, 78, 25);    /* z-index: 1; */
+    font-style: italic;
+}
+
+ /* =================== */
+
+ .Offer_item:hover  .Offer_info_span_1{
+    color:blue;
+}
+
+ /* =================== */
+ .Offer_item:hover  .Offer_item_image i{
+    color: rgb(112, 14, 14);
+    font-size: 30px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* <!-- ================================================================================== -->
+    <!-- SECTION 4 .... Why Choose Us -->
+<!-- .......................................... --> */
+
+.contener4{
+    width: 90%;
+    height: 600px;
+    text-align: center;
+    margin: 50px auto;
+
+}
+
+/* =================== */
+
+.Why_Choose_Us_content{
+    padding-top: 70px;
+    width: 100%;
+    height: 500px;
+    text-align: right;
+    margin: auto;
+    overflow: auto;
+    margin-left: 30px;} 
+    
+/* =================== */
+
+.Why_Choose_Us_item{
+    position: relative;
+    background-color:white;
+    margin:auto;
+    width: 90%;
+    height: 100% ;
+    overflow: auto;
+
+}
+
+/* =================== */
+
+.Why_Choose_Us_info{
+    color: rgb(151, 151, 163);
+    font-size: 20px;
+    float: left;
+    width: 55%;
+    text-align: left;
+
+}
+
+/* =================== */
+
+.Why_Choose_Us_span{
+    display: inline;
+    margin-top: 10px;
+}
+
+/* =================== */
+
+.Why_Choose_Us_info .Why_Choose_Us_details .Why_Choose_Us_list ul li{
+    display: block;
+    text-align: left;
+
+}
+
+/* =================== */
+
+.Why_Choose_Us_image{
+    width: 40%;
+    float: left;
+    overflow: auto;
+    margin: auto ;
+
+}
+
+/* =================== */
+
+.Why_Choose_Us_image .dot{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(124, 122, 243);
+    border-radius: 5px;
+    display: inline;
+    float: right;
+    margin: 10px;
+    /* text-align: center; */
+}
+
+/* =================== */
+
+.Why_Choose_Us_item .Why_Choose_Us_info h1{
+    padding-top: 5px;
+    text-align: left;
+
+}
+
+/* =================== */
+
+.my_list{
+    color: royalblue;
+    font-size: 20px;
+    display: inline;
+    padding-right: 5px;
+}
+
+/* =================== */
+
+.Why_Choose_Us_item .Why_Choose_Us_info .lin{
+    position: absolute;
+    margin-right: auto;
+    display: inline;
+
+
+}
+
+/* =================== */
+.dot:hover{
+background-color: brown;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* <!-- ================================================================================== -->
+    <!-- SECTION 5 .... bg images and opacitey 1 -->
+<!-- .......................................... --> */
+
+.parent5{
+    height: 380px;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/eee.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+/* =================== */
+
+.contener5{
+    margin: 50px auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+/* =================== */
+
+.content5{
+
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    position:absolute;
+    z-index: 2;    
+
+
+}
+
+/* =================== */
+
+.bg_image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;    
+}
+
+/* =================== */
+
+.bg_1{
+    height: 100%;
+    width: 100%;
+}
+
+/* =================== */
+
+.simb_text{
+    display: inline;
+    float: left;
+    margin: 46px;
+    padding: 5%;
+    text-align: center;
+
+}
+
+/* =================== */
+
+.simb_text .simb_icon{
+
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+/* =================== */
+
+.simb_text .simb_span{
+
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+/* =================== */
+
+.simb_text .simb_h1{
+
+    color: rgb(141, 198, 245);
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* <!-- ================================================================================== -->
+    <!-- SECTION 6 .... Pricing Table -->
+<!-- .......................................... --> */
+
+.contener6{
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    margin: 50px auto;
+    position: relative;
+    overflow: auto;
+}
+
+/* =================== */
+
+.Pricing_item{
+    /* position: absolute; */
+    position: relative;
+    float: left;
+    /* background-color: rgb(186, 201, 240); */
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    margin: 10px 15px;
+    text-align:center;
+    height: 280px;
+    width: 29%;
+    padding: 17px 13px;
+}
+
+/* =================== */
+
+.s_title_2{
+    text-transform: capitalize;
+    color: gray;
+
+}
+
+/* =================== */
+
+.bg_cycle{
+    /* background-color: gray; */
+    border: 1px;
+    border-color: gray;
+    border-radius: 50%;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    margin:auto ;
+    color: brown;
+
+}
+
+/* =================== */
+
+.sembl{
+    font-size: 55px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+/* =================== */
+
+.semb2{
+    text-transform: capitalize;
+    font-size:18px;
+    margin-top: -20px;
+
+
+}
+
+/* =================== */
+
+.span2{
+    color: rgb(127, 132, 173);
+}
+
+/* =================== */
+
+.btn_1{
+    text-transform: capitalize;
+    font-size:15px;
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(148, 234, 255);
+    color: rgb(38, 0, 255);
+
+}
+
+/* =================== */
+
+.Pricing_item::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.7);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; 
+    width:100%;
+    height: 0;
+    visibility: hidden;
+    transition: 1s;
+
+}
+
+/* =================== */
+
+.Pricing_item:hover::after{
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    visibility: visible;
+    /* z-index: -1;     */
+}
+
+ /* =================== */
+ 
+ .Pricing_item:hover .s_title_2{
+    color: rgb(136, 78, 25);    /* z-index: 1; */
+    font-style: italic;
+}
+
+ /* =================== */
+
+ .Pricing_item:hover .sembl{
+    color:blue;
+}
+
+/* =================== */
+
+.Pricing_item:hover .semb2{
+    color: rgb(112, 14, 14);
+}
+
+/* =================== */
+
+.Pricing_item:hover .bg_cycle{
+    color: rgb(112, 14, 14);
+}
+
+ /* =================== */
+
+ .Pricing_item:hover  .span2{
+    color: rgb(112, 14, 14);
+}
+
+ /* =================== */
+
+ .Pricing_item:hover  .btn_1{
+    font-style: italic;
+    height: 35px;
+    width: 160px;
+    color: rgb(112, 14, 14);
+    background-color: rgb(214, 164, 98);
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* <!-- ================================================================================== -->
+    <!-- SECTION 7 .... bg images and opacitey 2 -->
+<!-- .......................................... --> */
+
+.parent7{
+    height: 310px;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/zzz.png);
+    background-size: cover;
+    background-attachment: fixed; 
+    z-index: 0;
+
+}
+
+/* =================== */
+
+.contener7{
+    text-align: center;
+    margin: 50px auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+/* =================== */
+
+.content7{
+
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    position: relative;
+    z-index: 2;    
+
+}
+
+/* =================== */
+
+.bg_image{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;    
+}
+
+/* =================== */
+
+.simbl_text{
+    width: 35%;
+    display: inline;
+    float: left;
+    /* margin: 20px; */
+    margin: 100px 110px;
+    text-align: left;
+
+}
+
+/* =================== */
+
+.s_img{
+    display: inline;
+    height: 70ph;
+    width: 70px;
+    border-radius: 35px;
+    position: relative;
+}
+
+/* =================== */
+
+.s_img_i{
+    display: inline;
+    height: 70ph;
+    width: 70px;
+    border-radius: 35px;
+    position: absolute;
+}
+
+/* =================== */
+
+.simbl_text .simbl_h1{
+
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+/* =================== */
+
+.simbl_text .simbl_h2{
+    margin-bottom: 20pxz;
+    color: rgb(141, 198, 245);
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+/* =================== */
+
+.simbl_text .simbl_span{
+    color:white;
+    font-size: 14px;
+     padding-top: 30px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* <!-- ================================================================================== -->
+    <!-- SECTION 8 .... Our Team -->
+<!-- .......................................... --> */
+
+.contener8{
+    width: 90%;
+     margin: auto;
+    /* position: relative; */
+    /* overflow: auto; */
+}
+
+/* =================== */
+
+.Team_content{
+
+    text-align: center;
+    margin: auto; 
+    overflow: auto;
+    /* position: relative; */
+}
+
+/* =================== */
+
+.Team_item{
+    position: relative;
+    float: left;
+    background-color: rgb(186, 201, 240);
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    margin: 5px 10px;
+    text-align:center;
+    width: 29%;
+    padding: 17px 13px;
+}
+
+/* =================== */
+
+.Team_item_image image{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* =================== */
+
+.Team_item_image{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* =================== */
+
+.Team_item_overlay{
+    position: absolute; 
+    top: 0;
+    /* left: 0;
+    right: 0;
+    bottom: 0; */
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.1);
+    visibility: hidden;
+    opacity: 0;
+
+
+}
+
+/* =================== */
+
+.Team_item_overlay a{
+    display: block;
+    margin-left: auto;
+    margin-top: 5px;
+    line-height: 50px;
+    width: 40px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color:dodgerblue;
+}
+
+/* =================== */
+
+.Team_item_overlay a i{
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    background-color:dodgerblue;
+    margin-top: 5px;
+
+}
+
+/* =================== */
+
+.Team_info_span_1,.Team_info_span_2,.Team_info_span_3{
+    color: rgb(127, 132, 173);
+}
+
+/* =================== */
+
+.Team_item::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; 
+    width:100%;
+    height: 0;
+    background-color: rgb(43, 12, 182);
+    visibility: hidden;
+    transition: 1s;
+
+} 
+
+/* =================== */
+
+.Team_item:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    visibility: visible;
+}
+
+/* =================== */
+
+.Team_item:hover .Team_item_overlay{
+
+    visibility:visible;
+    opacity: 0.7; 
+    z-index: 1;
+
+} 
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* <!-- ================================================================================== -->
+    <!-- SECTION 9 .... Recent News -->
+<!-- .......................................... --> */
+
+.contener9{
+    /* height: 700px; */
+    width: 90%;
+    text-align: center; 
+    margin: 30px auto;
+    position: relative;
+    overflow: auto;
+}
+
+/* =================== */
+
+.Recent_News_content{
+    height: 90%;
+    width: 90%;
+    overflow: auto;
+    /* position: relative; */
+    margin: 40px auto;
+   
+}
+
+/* =================== */
+
+.Recent_News_item{
+    position: relative;
+    height: 100%;
+    width: 29%;
+    margin: 17px 15px;
+    text-align:left;
+    padding: 15px 10px;
+    float:left;
+
+}
+
+/* =================== */
+
+.s_simp,.s_ttl{
+    display: inline;
+    padding: 5px 5px;
+
+}
+
+/* =================== */
+
+.s_ttl{
+    font-size: 15px;
+    color: blue;
+
+}
+
+/* =================== */
+
+.s_title_3,.s_simp{
+    color: brown;
+    font-size: 20px;
+    padding: 5px 5px;
+
+}
+
+/* =================== */
+
+.span3{
+color: rgb(145, 145, 167);
+}
+
+/* =================== */
+
+.Recent_News_item::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.7);
+    bottom: 0;
+    right: 0; 
+    width:100%;
+    height: 0;
+    visibility: hidden;
+    transition: 1s;
+
+}
+
+/* =================== */
+
+.Recent_News_item:hover::after{
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    visibility: visible;
+    /* z-index: -1;     */
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* <!-- ================================================================================== -->
+    <!-- SECTION 10 .... fotter -->
+<!-- .......................................... --> */
+
+.contener10{
+    height: 300px;
+    width: 100%;
+    text-align: center; 
+    margin: 50px auto;
+    margin-top: -55px;
+    margin-bottom: 0;
+}
+
+/* =================== */
+
+.fotter_content{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(186, 201, 240);
+    color: white;
+    overflow: auto;
+    position: relative;
+    margin: 10px auto;
+
+}
+
+/* =================== */
+
+ .fotter_image image{ 
+    /* margin-top: 20px; */
+    margin: 50px auto;
+    /* float: left; */
+    position: absolute;
+    height: 80px;
+    width: 150px;
+    
+}
+
+/* =================== */
+
+.fotter_links{
+    width: 50%;
+    padding-left: 40%;
+    text-align: center;
+    overflow: auto;
+    position: absolute;
+    margin: 15px auto;
+
+}
+
+/* =================== */
+
+.fotter_links a{
+    display: inline;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    background-color:blue;
+     color: white;
+     padding: 5px;
+    font-size: 20px;
+    float: left;
+    margin: 2px;
+
+} 
+
+/* =================== */
+
+.fotter_links a:hover{
+    background-color:white;
+    color: rgb(241, 71, 19);
+}
+
+/* =================== */
+
+.fotter_span{
+padding-top: 80px;
+}
+
+/* =================== */
+
+.f_span{
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+    color: rgb(135, 141, 163);
+ }
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================================== */
+/* lec 10 */
+/* ================= */
+/* .div1{
+    width: 250px;
+    height: 200px;
+    border: 2px solid gray;  
+    /* عند اعطاء اى خاصيه للاب تورث لكل المحتوى من الابناء */
+    /* font-size: 20px; */
+/* }
+.title1{ */
+/* فى حاله اعطاء الخاصيه للابناء تلغى المعطاه من قبل للاب مخالفه للاب معطى من قبل ت */
+    /* font-size: 12px; 
+/* } */
+/* ========== */
+/* الوحدات */
+/* px بكسل */
+/* em   relateve to parent element مرتبطه بالمعطى للعنصر الاب */
+/* rem   relateve to :root element  16 px افتراضى    مرتبطه بالافتراضى لبيئه التطوير   / */
+/* vh -- vw   ==== راجع للمشهد - الشاشه الخاصه بك */
+/* ========== */
+
+/* سؤال امتحان 48-49-50 */
+/* .div1 p{
+    all paragraphes in div 1 سواء ابناء او احفاد
+} */
+
+/* .div1 > p{
+    paragraphes in div 1 ابناء مباشرين فقط
+} */
+
+/* .div1  .div2 p{
+    paragraphes in div 2 ابناء مباشرين فقط
+} */
+
+/* .div2 + p{
+    paragraphes in  div2 اخ مباشر تالى   فقط
+    direct sepling selector   الاخ التالى مباشره
+} */
+
+/* .div2 ~ p{
+    paragraphes in  div2 اخ مباشر كلهم   فقط
+    genral sepling selector   الاخ كلهمgm مباشره
+} */
+/* /* ================================================== */
+/* exam 2 */
+/* ================================================== */ 
+/* style_inline     id    (class | psodo classes | attr selector)    element] */
+                     /* 2               4                                     0 */
+
